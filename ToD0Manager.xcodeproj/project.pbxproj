@@ -8,26 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5C52C5B82160A9ED00AC1C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5B72160A9ED00AC1C66 /* AppDelegate.m */; };
-		5C52C5BB2160A9ED00AC1C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5BA2160A9ED00AC1C66 /* ViewController.m */; };
 		5C52C5BE2160A9ED00AC1C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C52C5BC2160A9ED00AC1C66 /* Main.storyboard */; };
 		5C52C5C12160A9ED00AC1C66 /* ToD0Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5BF2160A9ED00AC1C66 /* ToD0Manager.xcdatamodeld */; };
 		5C52C5C32160A9F200AC1C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C52C5C22160A9F200AC1C66 /* Assets.xcassets */; };
 		5C52C5C62160A9F200AC1C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C52C5C42160A9F200AC1C66 /* LaunchScreen.storyboard */; };
 		5C52C5C92160A9F200AC1C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5C82160A9F200AC1C66 /* main.m */; };
+		5C52C5D12160AF9C00AC1C66 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5D02160AF9C00AC1C66 /* MyUINavigationController.m */; };
+		5C52C5D42160B00600AC1C66 /* MyUITableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5D32160B00600AC1C66 /* MyUITableController.m */; };
+		5C52C5DA2160B0A300AC1C66 /* MyUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5D92160B0A300AC1C66 /* MyUIController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C52C5B32160A9ED00AC1C66 /* ToD0Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToD0Manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C52C5B62160A9ED00AC1C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C52C5B72160A9ED00AC1C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C52C5B92160A9ED00AC1C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C52C5BA2160A9ED00AC1C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5C52C5BD2160A9ED00AC1C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C52C5C02160A9ED00AC1C66 /* ToD0Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToD0Manager.xcdatamodel; sourceTree = "<group>"; };
 		5C52C5C22160A9F200AC1C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C52C5C52160A9F200AC1C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C52C5C72160A9F200AC1C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C52C5C82160A9F200AC1C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C52C5CF2160AF9C00AC1C66 /* MyUINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		5C52C5D02160AF9C00AC1C66 /* MyUINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		5C52C5D22160B00600AC1C66 /* MyUITableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUITableController.h; sourceTree = "<group>"; };
+		5C52C5D32160B00600AC1C66 /* MyUITableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUITableController.m; sourceTree = "<group>"; };
+		5C52C5D82160B0A300AC1C66 /* MyUIController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIController.h; sourceTree = "<group>"; };
+		5C52C5D92160B0A300AC1C66 /* MyUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIController.m; sourceTree = "<group>"; };
+		5C52C5DB2160B0FA00AC1C66 /* DPHandlesMOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPHandlesMOC.h; sourceTree = "<group>"; };
+		5C52C5DC2160B24400AC1C66 /* DPHandlesToDoEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPHandlesToDoEntity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,17 @@
 		5C52C5B52160A9ED00AC1C66 /* ToD0Manager */ = {
 			isa = PBXGroup;
 			children = (
+				5C52C5D82160B0A300AC1C66 /* MyUIController.h */,
+				5C52C5D92160B0A300AC1C66 /* MyUIController.m */,
 				5C52C5B62160A9ED00AC1C66 /* AppDelegate.h */,
 				5C52C5B72160A9ED00AC1C66 /* AppDelegate.m */,
-				5C52C5B92160A9ED00AC1C66 /* ViewController.h */,
-				5C52C5BA2160A9ED00AC1C66 /* ViewController.m */,
 				5C52C5BC2160A9ED00AC1C66 /* Main.storyboard */,
+				5C52C5DB2160B0FA00AC1C66 /* DPHandlesMOC.h */,
+				5C52C5DC2160B24400AC1C66 /* DPHandlesToDoEntity.h */,
+				5C52C5D22160B00600AC1C66 /* MyUITableController.h */,
+				5C52C5D32160B00600AC1C66 /* MyUITableController.m */,
+				5C52C5CF2160AF9C00AC1C66 /* MyUINavigationController.h */,
+				5C52C5D02160AF9C00AC1C66 /* MyUINavigationController.m */,
 				5C52C5C22160A9F200AC1C66 /* Assets.xcassets */,
 				5C52C5C42160A9F200AC1C66 /* LaunchScreen.storyboard */,
 				5C52C5C72160A9F200AC1C66 /* Info.plist */,
@@ -144,10 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C52C5BB2160A9ED00AC1C66 /* ViewController.m in Sources */,
+				5C52C5D42160B00600AC1C66 /* MyUITableController.m in Sources */,
+				5C52C5DA2160B0A300AC1C66 /* MyUIController.m in Sources */,
 				5C52C5B82160A9ED00AC1C66 /* AppDelegate.m in Sources */,
 				5C52C5C92160A9F200AC1C66 /* main.m in Sources */,
 				5C52C5C12160A9ED00AC1C66 /* ToD0Manager.xcdatamodeld in Sources */,
+				5C52C5D12160AF9C00AC1C66 /* MyUINavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2A2YFQL2N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToD0Manager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2A2YFQL2N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToD0Manager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

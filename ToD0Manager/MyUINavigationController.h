@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyUINavigationController.h
 //  ToD0Manager
 //
 //  Created by Mohamed Ismail on 9/30/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyUINavigationController : UINavigationController
 
 @end
-
