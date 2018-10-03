@@ -10,6 +10,8 @@
 
 @interface MyUINavigationController ()
 
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
 @end
 
 @implementation MyUINavigationController
@@ -34,4 +36,14 @@
 }
 */
 
+- (void) receiveMOC:(NSManagedObjectContext *)incomMOC{
+    self.managedObjectContext = incomMOC;
+    
+    
+}
+
 @end
+
+
+
+

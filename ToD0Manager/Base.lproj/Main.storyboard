@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b98-xG-rYQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b98-xG-rYQ">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--ToDo List -->
         <scene sceneID="fka-ke-zjN">
             <objects>
                 <tableViewController id="9OL-Sg-OQJ" customClass="MyUITableController" customModule="ToD0Manager" sceneMemberID="viewController">
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCellidenetfier" id="ytt-lX-O96">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCellidenetfier" id="ytt-lX-O96" customClass="MyUITableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ytt-lX-O96" id="oSC-hC-N8e">
@@ -33,13 +33,21 @@
                             <outlet property="delegate" destination="9OL-Sg-OQJ" id="y2s-4j-6DV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="CJp-t5-bsb"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="ToDo List " id="CJp-t5-bsb">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Tns-LN-OyW">
+                            <connections>
+                                <segue destination="EBI-cO-1TY" kind="show" id="1qk-gQ-5l6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWf-3L-RVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3729" y="77"/>
         </scene>
-        <!--MyUI Controller-->
+        <!--To Do-->
         <scene sceneID="G5y-fU-eTD">
             <objects>
                 <viewController id="EBI-cO-1TY" customClass="MyUIController" sceneMemberID="viewController">
@@ -49,6 +57,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Vw4-gc-zLB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="To Do" id="31A-XO-NRF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wW1-Ec-EX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,6 @@
 
 @protocol DPHandlesToDoEntity <NSObject>
 
-- (void) receiveTODoEntity:(TODoEntity *) incomingToDoEntity;
+- (void) receiveTODoEntity:(ToDoEntity *) incomingToDoEntity;
 
 @end
