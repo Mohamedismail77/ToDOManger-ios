@@ -9,6 +9,7 @@
 #import "MyUITableController.h"
 
 @interface MyUITableController ()
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
 
@@ -85,14 +86,21 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    id<DPHandlesMOC> child = (id<DPHandlesMOC>)[segue destinationViewController];
+    [child receiveMOC:self.managedObjectContext];
 }
-*/
+
+
+- (void) receiveMOC:(NSManagedObjectContext *)incomMOC{
+    self.managedObjectContext = incomMOC;
+
+}
 
 @end

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C012BDD21649AA2005546FB /* ToDoEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012BDB21649AA2005546FB /* ToDoEntity+CoreDataClass.m */; };
-		5C012BDE21649AA2005546FB /* ToDoEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012BDC21649AA2005546FB /* ToDoEntity+CoreDataProperties.m */; };
+		5C012BDD21649AA2005546FB /* ToDoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012BDB21649AA2005546FB /* ToDoEntity.m */; };
+		5C012BDE21649AA2005546FB /* ToDoEntityProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012BDC21649AA2005546FB /* ToDoEntityProperties.m */; };
 		5C0687A02161FB65007DFB79 /* MyUITableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06879F2161FB65007DFB79 /* MyUITableCell.m */; };
 		5C52C5B82160A9ED00AC1C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52C5B72160A9ED00AC1C66 /* AppDelegate.m */; };
 		5C52C5BE2160A9ED00AC1C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C52C5BC2160A9ED00AC1C66 /* Main.storyboard */; };
@@ -22,10 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C012BD921649AA2005546FB /* ToDoEntity+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
-		5C012BDA21649AA2005546FB /* ToDoEntity+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoEntity+CoreDataClass.h"; sourceTree = "<group>"; };
-		5C012BDB21649AA2005546FB /* ToDoEntity+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ToDoEntity+CoreDataClass.m"; sourceTree = "<group>"; };
-		5C012BDC21649AA2005546FB /* ToDoEntity+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ToDoEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5C012BD921649AA2005546FB /* ToDoEntityProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoEntityProperties.h; sourceTree = "<group>"; };
+		5C012BDA21649AA2005546FB /* ToDoEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoEntity.h; sourceTree = "<group>"; };
+		5C012BDB21649AA2005546FB /* ToDoEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoEntity.m; sourceTree = "<group>"; };
+		5C012BDC21649AA2005546FB /* ToDoEntityProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoEntityProperties.m; sourceTree = "<group>"; };
 		5C06879E2161FB65007DFB79 /* MyUITableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUITableCell.h; sourceTree = "<group>"; };
 		5C06879F2161FB65007DFB79 /* MyUITableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUITableCell.m; sourceTree = "<group>"; };
 		5C52C5B32160A9ED00AC1C66 /* ToD0Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToD0Manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +61,10 @@
 		5C52C5AA2160A9EC00AC1C66 = {
 			isa = PBXGroup;
 			children = (
-				5C012BD921649AA2005546FB /* ToDoEntity+CoreDataProperties.h */,
-				5C012BDA21649AA2005546FB /* ToDoEntity+CoreDataClass.h */,
-				5C012BDB21649AA2005546FB /* ToDoEntity+CoreDataClass.m */,
-				5C012BDC21649AA2005546FB /* ToDoEntity+CoreDataProperties.m */,
+				5C012BD921649AA2005546FB /* ToDoEntityProperties.h */,
+				5C012BDA21649AA2005546FB /* ToDoEntity.h */,
+				5C012BDB21649AA2005546FB /* ToDoEntity.m */,
+				5C012BDC21649AA2005546FB /* ToDoEntityProperties.m */,
 				5C52C5B52160A9ED00AC1C66 /* ToD0Manager */,
 				5C52C5B42160A9ED00AC1C66 /* Products */,
 			);
@@ -177,8 +177,8 @@
 				5C0687A02161FB65007DFB79 /* MyUITableCell.m in Sources */,
 				5C52C5DA2160B0A300AC1C66 /* MyUIController.m in Sources */,
 				5C52C5B82160A9ED00AC1C66 /* AppDelegate.m in Sources */,
-				5C012BDE21649AA2005546FB /* ToDoEntity+CoreDataProperties.m in Sources */,
-				5C012BDD21649AA2005546FB /* ToDoEntity+CoreDataClass.m in Sources */,
+				5C012BDE21649AA2005546FB /* ToDoEntityProperties.m in Sources */,
+				5C012BDD21649AA2005546FB /* ToDoEntity.m in Sources */,
 				5C52C5C92160A9F200AC1C66 /* main.m in Sources */,
 				5C52C5C12160A9ED00AC1C66 /* ToD0Manager.xcdatamodeld in Sources */,
 				5C52C5D12160AF9C00AC1C66 /* MyUINavigationController.m in Sources */,
