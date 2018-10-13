@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "DPHandlesMOC.h"
+#import "DPHandlesToDoEntity.h"
+#import "ToDoEntity+CoreDataClass.h"
 
-@interface MyUIController : UIViewController <DPHandlesMOC>
+@interface MyUIController : UIViewController <DPHandlesMOC, DPHandlesToDoEntity>
+
 
 - (void) receiveMOC:(NSManagedObjectContext *)incomMOC;
+- (void) receiveTODoEntity:(ToDoEntity *) incomingToDoEntity;
+
 
 @end

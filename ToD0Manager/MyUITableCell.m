@@ -8,7 +8,7 @@
 
 #import "MyUITableCell.h"
 
-@implementation MyUITableViewCell
+@implementation MyUITableCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -19,6 +19,21 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+
+- (void) setInternalFields:(ToDoEntity *) incomingToDoEntity {
+    
+    NSDateFormatter *dateFormater = [[NSDateFormatter alloc]init];
+    [dateFormater setDateStyle:NSDateFormatterShortStyle];
+    [dateFormater setTimeStyle:NSDateFormatterShortStyle];
+    
+    self.ToDoData.text = incomingToDoEntity.toDoDetails;
+    
+    self.LocalToDoEntity = incomingToDoEntity;
+
+    self.ToDoDate.text = [dateFormater stringFromDate:incomingToDoEntity.toDoDueDate]; 
+
 }
 
 @end

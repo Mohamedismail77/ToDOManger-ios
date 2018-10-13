@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoEntity+CoreDataClass.h"
 
-@interface MyUITableViewCell : UITableViewCell
+@interface MyUITableCell : UITableViewCell
+
+@property (strong, nonatomic) ToDoEntity *LocalToDoEntity;
+@property (weak, nonatomic) IBOutlet UILabel *ToDoDate;
+@property (weak, nonatomic) IBOutlet UILabel *ToDoData;
+
+- (void) setInternalFields:(ToDoEntity *) incomingToDoEntity;
 
 @end

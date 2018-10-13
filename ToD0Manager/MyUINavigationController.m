@@ -7,6 +7,7 @@
 //
 
 #import "MyUINavigationController.h"
+#import "DPHandlesMOC.h"
 
 @interface MyUINavigationController ()
 

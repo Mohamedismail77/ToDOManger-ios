@@ -2,7 +2,7 @@
 //  ToDoEntity+CoreDataClass.h
 //  ToD0Manager
 //
-//  Created by Mohamed Ismail on 10/3/18.
+//  Created by Mohamed Ismail on 10/7/18.
 //  Copyright © 2018 Mohamed Ismail. All rights reserved.
 //
 //
@@ -18,4 +18,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "ToDoEntityProperties.h"
+#import "ToDoEntity+CoreDataProperties.h"

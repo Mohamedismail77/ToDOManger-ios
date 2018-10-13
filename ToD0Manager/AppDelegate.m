@@ -18,9 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    id<DPHandlesMOC> child = (id<DPHandlesMOC> )self.window.rootViewController;
+    id<DPHandlesMOC> child = (id<DPHandlesMOC>)self.window.rootViewController;
     
-    [child receiveMOC:self.persistentContainer.viewContext];
+    //[child receiveMOC:self.persistentContainer.viewContext];
     
     return YES;
 }
