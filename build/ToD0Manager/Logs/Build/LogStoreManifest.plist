@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>58E59742-0917-4A46-9F76-7A4DFC1E1832</key>
+		<key>0182BF02-680D-4777-9C2A-276C08E4BE40</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>58E59742-0917-4A46-9F76-7A4DFC1E1832.xcactivitylog</string>
+			<string>0182BF02-680D-4777-9C2A-276C08E4BE40.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561130080.93119597</real>
+			<real>561179288.42727304</real>
 			<key>timeStoppedRecording</key>
-			<real>561130087.63321495</real>
+			<real>561179295.83266401</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>58E59742-0917-4A46-9F76-7A4DFC1E1832</string>
+			<string>0182BF02-680D-4777-9C2A-276C08E4BE40</string>
 		</dict>
-		<key>744EA14E-1126-416D-916E-D5948A419CE1</key>
+		<key>174A3D09-86EF-43F7-BC30-8CE2A6623C7E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>744EA14E-1126-416D-916E-D5948A419CE1.xcactivitylog</string>
+			<string>174A3D09-86EF-43F7-BC30-8CE2A6623C7E.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,15 +56,15 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561126976.65399098</real>
+			<real>561178056.08806396</real>
 			<key>timeStoppedRecording</key>
-			<real>561126978.67656696</real>
+			<real>561178059.41702199</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>744EA14E-1126-416D-916E-D5948A419CE1</string>
+			<string>174A3D09-86EF-43F7-BC30-8CE2A6623C7E</string>
 		</dict>
-		<key>77A5D334-356B-47DB-8680-D854A3E1DD16</key>
+		<key>4B6D6FE1-5454-4E86-B368-7F489DCD2BF5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -73,65 +73,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>77A5D334-356B-47DB-8680-D854A3E1DD16.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToD0Manager project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToD0Manager</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Build ToD0Manager</string>
-			<key>timeStartedRecording</key>
-			<real>561127152.27379501</real>
-			<key>timeStoppedRecording</key>
-			<real>561127163.29312694</real>
-			<key>title</key>
-			<string>Build ToD0Manager</string>
-			<key>uniqueIdentifier</key>
-			<string>77A5D334-356B-47DB-8680-D854A3E1DD16</string>
-		</dict>
-		<key>96362AF9-D562-49C3-89B9-1F7F136C3F95</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>96362AF9-D562-49C3-89B9-1F7F136C3F95.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToD0Manager project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToD0Manager</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Build ToD0Manager</string>
-			<key>timeStartedRecording</key>
-			<real>561136378.03609896</real>
-			<key>timeStoppedRecording</key>
-			<real>561136378.32753801</real>
-			<key>title</key>
-			<string>Build ToD0Manager</string>
-			<key>uniqueIdentifier</key>
-			<string>96362AF9-D562-49C3-89B9-1F7F136C3F95</string>
-		</dict>
-		<key>9D1EEA7D-04B4-4A64-B4B6-24F10B50A8D1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9D1EEA7D-04B4-4A64-B4B6-24F10B50A8D1.xcactivitylog</string>
+			<string>4B6D6FE1-5454-4E86-B368-7F489DCD2BF5.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -143,15 +85,15 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561130412.97237301</real>
+			<real>561179698.23819196</real>
 			<key>timeStoppedRecording</key>
-			<real>561130414.65846503</real>
+			<real>561179719.97080004</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>9D1EEA7D-04B4-4A64-B4B6-24F10B50A8D1</string>
+			<string>4B6D6FE1-5454-4E86-B368-7F489DCD2BF5</string>
 		</dict>
-		<key>B553B8CC-9FCA-4A43-A89F-B0406A072EDD</key>
+		<key>5656A5A0-4DC4-4F1D-96E3-9D9EA06B5C07</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -160,7 +102,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B553B8CC-9FCA-4A43-A89F-B0406A072EDD.xcactivitylog</string>
+			<string>5656A5A0-4DC4-4F1D-96E3-9D9EA06B5C07.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -172,15 +114,15 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561130202.14207399</real>
+			<real>561180817.36930501</real>
 			<key>timeStoppedRecording</key>
-			<real>561130203.71258402</real>
+			<real>561180819.29373205</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>B553B8CC-9FCA-4A43-A89F-B0406A072EDD</string>
+			<string>5656A5A0-4DC4-4F1D-96E3-9D9EA06B5C07</string>
 		</dict>
-		<key>B943D307-E819-4C35-A5F6-AE761C4EB14F</key>
+		<key>65CFE6CB-7EF5-4B25-A91E-6719A7B83D83</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -189,7 +131,210 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B943D307-E819-4C35-A5F6-AE761C4EB14F.xcactivitylog</string>
+			<string>65CFE6CB-7EF5-4B25-A91E-6719A7B83D83.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561181415.79800606</real>
+			<key>timeStoppedRecording</key>
+			<real>561181417.78226101</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>65CFE6CB-7EF5-4B25-A91E-6719A7B83D83</string>
+		</dict>
+		<key>7D79AEB8-59DC-4C11-B319-9C3094177EC9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7D79AEB8-59DC-4C11-B319-9C3094177EC9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561182293.29427397</real>
+			<key>timeStoppedRecording</key>
+			<real>561182298.31997395</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>7D79AEB8-59DC-4C11-B319-9C3094177EC9</string>
+		</dict>
+		<key>823678D1-0408-4493-9F5F-00E77E4D08BD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>823678D1-0408-4493-9F5F-00E77E4D08BD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561181270.15295804</real>
+			<key>timeStoppedRecording</key>
+			<real>561181275.12959599</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>823678D1-0408-4493-9F5F-00E77E4D08BD</string>
+		</dict>
+		<key>8BCDDC57-50A5-4C47-8089-768C89E56427</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8BCDDC57-50A5-4C47-8089-768C89E56427.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561179356.32662499</real>
+			<key>timeStoppedRecording</key>
+			<real>561179358.03413296</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>8BCDDC57-50A5-4C47-8089-768C89E56427</string>
+		</dict>
+		<key>9D7AF028-A29E-489E-9DC4-90E5B24D97B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D7AF028-A29E-489E-9DC4-90E5B24D97B4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561181125.67546999</real>
+			<key>timeStoppedRecording</key>
+			<real>561181127.42659104</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>9D7AF028-A29E-489E-9DC4-90E5B24D97B4</string>
+		</dict>
+		<key>A935351C-3FDD-42D9-B083-E611CA987A68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A935351C-3FDD-42D9-B083-E611CA987A68.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561181565.32921803</real>
+			<key>timeStoppedRecording</key>
+			<real>561181566.65486503</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>A935351C-3FDD-42D9-B083-E611CA987A68</string>
+		</dict>
+		<key>AE48CC94-019F-4331-B1DE-85A647A38CCE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE48CC94-019F-4331-B1DE-85A647A38CCE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561182403.20281601</real>
+			<key>timeStoppedRecording</key>
+			<real>561182403.44452596</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>AE48CC94-019F-4331-B1DE-85A647A38CCE</string>
+		</dict>
+		<key>D69D1C66-C9D5-45F6-BEC5-CBBE85C87C04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D69D1C66-C9D5-45F6-BEC5-CBBE85C87C04.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -201,15 +346,15 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561056684.97695804</real>
+			<real>561179438.22822404</real>
 			<key>timeStoppedRecording</key>
-			<real>561056686.78725004</real>
+			<real>561179439.52683604</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>B943D307-E819-4C35-A5F6-AE761C4EB14F</string>
+			<string>D69D1C66-C9D5-45F6-BEC5-CBBE85C87C04</string>
 		</dict>
-		<key>C90510CD-68D9-4492-9DCF-55D51C39D7D4</key>
+		<key>E36B8DC1-C447-456F-9ED4-7A13E318FEBD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -218,9 +363,9 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C90510CD-68D9-4492-9DCF-55D51C39D7D4.xcactivitylog</string>
+			<string>E36B8DC1-C447-456F-9ED4-7A13E318FEBD.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>W</string>
+			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>ToD0Manager project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -230,13 +375,100 @@
 			<key>signature</key>
 			<string>Build ToD0Manager</string>
 			<key>timeStartedRecording</key>
-			<real>561136328.69553399</real>
+			<real>561180666.267519</real>
 			<key>timeStoppedRecording</key>
-			<real>561136334.09884596</real>
+			<real>561180667.98907006</real>
 			<key>title</key>
 			<string>Build ToD0Manager</string>
 			<key>uniqueIdentifier</key>
-			<string>C90510CD-68D9-4492-9DCF-55D51C39D7D4</string>
+			<string>E36B8DC1-C447-456F-9ED4-7A13E318FEBD</string>
+		</dict>
+		<key>E88892C0-6EF8-4D42-AEE9-E60CDB01FEAB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E88892C0-6EF8-4D42-AEE9-E60CDB01FEAB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561181198.84607303</real>
+			<key>timeStoppedRecording</key>
+			<real>561181200.446419</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>E88892C0-6EF8-4D42-AEE9-E60CDB01FEAB</string>
+		</dict>
+		<key>EC68E9D5-F451-4908-A443-05B632E14CD5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EC68E9D5-F451-4908-A443-05B632E14CD5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561149970.37378705</real>
+			<key>timeStoppedRecording</key>
+			<real>561149971.50500596</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>EC68E9D5-F451-4908-A443-05B632E14CD5</string>
+		</dict>
+		<key>FE1BAC6B-1D83-431E-B18F-9B9149544228</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FE1BAC6B-1D83-431E-B18F-9B9149544228.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToD0Manager project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToD0Manager</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ToD0Manager</string>
+			<key>timeStartedRecording</key>
+			<real>561179492.84605205</real>
+			<key>timeStoppedRecording</key>
+			<real>561179494.22803295</real>
+			<key>title</key>
+			<string>Build ToD0Manager</string>
+			<key>uniqueIdentifier</key>
+			<string>FE1BAC6B-1D83-431E-B18F-9B9149544228</string>
 		</dict>
 	</dict>
 </dict>

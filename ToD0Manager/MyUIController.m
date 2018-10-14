@@ -10,6 +10,7 @@
 
 @interface MyUIController ()
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
 @property (strong, nonatomic) ToDoEntity *localToDoEntity;
 @property (weak, nonatomic) IBOutlet UITextField *titleField;
 @property (weak, nonatomic) IBOutlet UITextField *detailsField;

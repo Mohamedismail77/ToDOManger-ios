@@ -6,8 +6,10 @@
 //  Copyright © 2018 Mohamed Ismail. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import "MyUINavigationController.h"
 #import "DPHandlesMOC.h"
+
 
 @interface MyUINavigationController ()
 

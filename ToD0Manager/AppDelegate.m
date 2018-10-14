@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DPHandlesMOC.h"
+#import <CoreData/CoreData.h>
 
 @interface AppDelegate ()
 
@@ -18,9 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    id<DPHandlesMOC> child = (id<DPHandlesMOC>)self.window.rootViewController;
-    
-    //[child receiveMOC:self.persistentContainer.viewContext];
+    id<DPHandlesMOC> child = (id<DPHandlesMOC>)self.window.rootViewController;  
+    [child receiveMOC:self.persistentContainer.viewContext];
     
     return YES;
 }
@@ -55,9 +55,16 @@
 }
 
 
+
 #pragma mark - Core Data stack
 
+//@synthesize managedObjectContext = _managedObjectContext;
+//@synthesize managedObjectModel = _managedObjectModel;
+//@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 @synthesize persistentContainer = _persistentContainer;
+
+
+
 
 - (NSPersistentContainer *)persistentContainer {
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
@@ -81,6 +88,9 @@
                     abort();
                 }
             }];
+            
+            
+            
         }
     }
     
@@ -90,14 +100,18 @@
 #pragma mark - Core Data Saving support
 
 - (void)saveContext {
-    NSManagedObjectContext *context = self.persistentContainer.viewContext;
-    NSError *error = nil;
-    if ([context hasChanges] && ![context save:&error]) {
-        // Replace this implementation with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-        abort();
-    }
+    
+    //Check current version.
+        NSManagedObjectContext *context =_persistentContainer.viewContext;
+        if (context != nil) {
+            NSError *error = nil;
+            if ([context hasChanges] && ![context save:&error]) {
+                // Replace this implementation with code to handle the error appropriately.
+                // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+                abort();
+            }
+        }
 }
 
 @end
